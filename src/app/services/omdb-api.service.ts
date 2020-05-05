@@ -11,10 +11,7 @@ export class OmdbApiService {
 
 private _siteURL='https://www.omdbapi.com/';
 private _key='fceec74b';
-
-
-  constructor(private _http:HttpClient) { }
-
+constructor(private _http:HttpClient) { }
 
   getGameName(gameName): Observable<IOMDBResponse> {
 return this._http.get<IOMDBResponse>(this._siteURL + this._key + gameName)
