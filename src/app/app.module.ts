@@ -9,6 +9,8 @@ import { TagsPageComponent } from './tags-page/tags-page';
 import { HttpClientModule } from '@angular/common/http';
 import { OmdbApiService } from './services/omdb-api.service';
 
+import { HomeComponent } from './home/home';
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -26,5 +26,12 @@ return this._http.get<IOMDBResponse>(this._siteURL + this._key + gameName)
 tap(data => console.log('Gamedata/error' + JSON.stringify(data))),
 catchError(this.handleError));
   }
+
+  private handleError(err:HttpErrorResponse) {
+	  console.log('OmdbApiService: ' + Error);
+	  return Observable.throw(err.message);
+  }
+
+
 }
 
