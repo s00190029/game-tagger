@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "g-tagger",
+      "public": "dist/g-tagger",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

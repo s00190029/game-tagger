@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "movie-finder-rt": {
+      "hosting": {
+        "g-tagger": [
+          "movie-finder-rt"
+        ]
+      }
+    }
+  }
+}
