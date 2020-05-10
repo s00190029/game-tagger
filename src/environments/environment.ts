@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-  apiKey: "AIzaSyCqbEgsNr6Dt65NGaxh96YSPqMH8bT9oZk",
-    authDomain: "movie-finder-rt.firebaseapp.com",
-    databaseURL: "https://movie-finder-rt.firebaseio.com",
-    projectId: "movie-finder-rt",
-    storageBucket: "movie-finder-rt.appspot.com",
-    messagingSenderId: "593249432697",
-    appId: "1:593249432697:web:ef1e6174b2de8a00fd10a8"
+	  apiKey: "AIzaSyAi52xqwidI4RCw10MEZJ-c0W0-_c-_O9o",
+	  authDomain: "game-tagger.firebaseapp.com",
+	  databaseURL: "https://game-tagger.firebaseio.com",
+	  projectId: "game-tagger",
+	  storageBucket: "game-tagger.appspot.com",
+	  messagingSenderId: "371859617310",
+	  appId: "1:371859617310:web:25a33f6aadcdc2f81a600f"
   }
 };
 

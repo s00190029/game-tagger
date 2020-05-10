@@ -30,7 +30,7 @@ import { HomeComponent } from './home/home';
     AppRoutingModule,
     HttpClientModule,
     AngularFireStorageModule,
-    AngularFireModule.initializeApp(environment.firebase),
+    //AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     CommonModule
   ],

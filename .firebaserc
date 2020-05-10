@@ -1,14 +1,5 @@
 {
-  "targets": {
-    "movie-finder-rt": {
-      "hosting": {
-        "g-tagger": [
-          "movie-finder-rt"
-        ]
-      }
-    }
-  },
   "projects": {
-    "default": "movie-finder-rt"
+    "default": "game-tagger"
   }
 }
