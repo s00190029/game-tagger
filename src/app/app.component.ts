@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { OmdbApiService } from './services/omdb-api.service';
+import { Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',

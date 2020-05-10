@@ -2,21 +2,22 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { CommonModule } from '@angular/common';
-import { Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 import { environment } from '../environments/environment';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFirestoreModule} from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire';
+import { AngularFireStorage, AngularFireStorageModule} from '@angular/fire/storage';
 
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search';
 import { TagsPageComponent } from './tags-page/tags-page';
+import { HomeComponent } from './home/home';
 
 import { HttpClientModule } from '@angular/common/http';
 import { OmdbApiService } from './services/omdb-api.service';
 
-import { HomeComponent } from './home/home';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HomeComponent } from './home/home';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AngularFireStorageModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     CommonModule
